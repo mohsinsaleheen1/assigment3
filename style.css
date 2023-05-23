@@ -1,0 +1,212 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+.nav{
+    width: 85.5%;
+    height: 75px;
+    line-height: 75px;
+    padding: 0px 100px;
+    position:absolute;
+    background-color:rgb(40, 39, 39);
+}
+.logo img{
+    margin-top: -60px;
+    width: 250px;
+    height: 200px;
+    float: left;
+}
+.nav ul{
+    float: right;
+}
+.nav li{
+    display: inline;
+    list-style: none;
+}
+.nav li a{
+    font-size: 18px;
+    text-transform: uppercase;
+    padding: 0 30px;
+    color:rgb(255, 255, 255);
+    text-decoration: none;
+} 
+.nav li a:hover{
+    color: brown;
+    font-weight: bold;
+    background-color: white;
+    border-radius: 5px;
+}
+.content{
+    background-image: url(images/background.jpg);
+    width: 1280px;
+    height: 600px;
+}
+.content > h1{
+    padding-left: 20px;
+    padding-top: 10%;
+    font-size:40px;
+    font-family:'Times New Roman', Times, serif;
+    color: rgb(255, 255, 255);}
+.content > p{
+    padding-left: 20px;
+    padding-top: 2%;
+    font-weight: bold;
+    font-family: sans-serif;
+    color: rgb(255, 255, 255);
+} 
+.content  input{
+    padding-left: 20px;
+    margin-top: 1%;
+    background-color: brown;
+    color: white;
+    text-align: center;
+    width: 180px;
+    height: 40px;
+    font-size: large;
+    border-radius: 5px;
+    border-color : white;
+}
+.content input:hover{
+    background-color: white;
+    border-color: brown;
+    color: brown;
+    font-weight: bold;
+}
+.content>.one{
+    margin-top: 264px;
+    width: 1280px;
+    height: 460px;
+    background-color: rgb(181, 181, 181);
+}
+.content>.one h1{
+    padding-left: 500px;
+    font-family: 'Times New Roman', Times, serif;
+    color: brown;
+
+}
+.content>.one .p1{
+    width: 300px;
+    height: 420px;
+    position: absolute;
+    left: 2px;
+    background-color: rgb(126, 128, 130);
+}
+.content>.one .p1 img{
+    width: 300px;
+    height: 300px;
+}
+.content> .one .p1 a:hover{
+    color: rgb(77, 77, 228);
+}
+.content> .one .p1 .pd1{
+    background-color:rgb(218, 218, 218);
+}
+.content> .one .p2{
+    width: 300px;
+    height: 420px;
+    position: absolute;
+    left: 325px;
+    background-color: rgb(126, 128, 130);
+}
+.content> .one .p2 img{
+    width: 300px;
+    height: 250px;
+    margin-top: 50px;
+}
+.content> .one .p2 a:hover{
+    color: rgb(77, 77, 228);
+}
+.content> .one .p2 .pd2{
+    background-color:rgb(218, 218, 218);
+}
+.content> .one .p3{
+    width: 300px;
+    height: 420px;
+    position: absolute;
+    left: 648px;
+    background-color:rgb(126, 128, 130);
+
+}
+.content> .one .p3 img{
+    width: 300px;
+    height: 300px;
+}
+.content> .one .p3 a:hover{
+    color: rgb(77, 77, 228);
+}
+.content> .one .p3 .pd3{
+    background-color:rgb(218, 218, 218);
+}
+.content> .one .p4{
+    width: 300px;
+    height: 420px;
+    position: absolute;
+    left: 975px;
+    background-color: rgb(126, 128, 130);
+}
+.content .one .p4 img{
+    width: 300px;
+    height: 300px;
+}
+.content> .one .p4 a:hover{
+    color: rgb(77, 77, 228);
+}
+.content> .one .p4 .pd4{
+    background-color:rgb(218, 218, 218);
+}
+.d{
+    text-align: center;
+    font-size: large;
+    color: brown;
+    font-weight: bold;
+}
+.content > .two{
+    width: 1280px;
+    height: 450px;
+    background-color:rgb(249, 249, 249);
+}
+.content > .two .map{
+    position:relative;
+    top: 30px;
+} 
+.content> .two .map{
+    margin-left: 70px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.content> .two .map .cd{
+    width: 500px;
+    height: 300px;
+    position: absolute;
+    left: 530px;
+    top: 70px;
+}
+.content> .two .map .cd h1{
+    margin-left: 10px;
+}
+.content> .two .map .cd p{
+    margin: 20px;
+    margin-top: 50px;
+    font-size: large;
+    color: silver;
+}
+.content> .fotter{
+    width: 1280;
+    height: 50px;
+    background-color:rgb(181, 181, 181);
+}
+.content> .fotter p{
+    text-align: center;
+    font-size: large;
+    padding-top: 15px;
+    font-family: sans-serif;
+}
+.content> .fotter p a{
+    text-decoration: none;
+    color: black;
+}
+.content> .fotter p a:hover{
+    color:rgb(77, 77, 228) ;
+}
+
+
+
